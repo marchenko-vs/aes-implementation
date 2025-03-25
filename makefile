@@ -19,4 +19,4 @@ $(OBJ_DIR)/aes.o : $(SRC_DIR)/aes.c $(INC_DIR)/aes.h
 .PHONY : clean
 
 clean :
-	rm -rf $(OBJ_DIR) app.exe
+	rm -rf $(OBJ_DIR) app.exe *.bin
